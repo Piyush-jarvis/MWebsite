@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- ---------- graphics_by_piyushmaheshwari ---------- -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni WebDesign | graphics_by_piyushmaheshwari</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<!-- ---------- graphics_by_piyushmaheshwari ---------- -->
+<!-- ---------- graphics_by_piyushmaheshwari ---------- -->
+<body>
+    <!-- ---------- graphics_by_piyushmaheshwari ---------- -->
+    <!-- ----------           HEADER             ---------- -->
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Logo of university"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav> 
+        <h1>Contact Us</h1>
+    </section>
+    <!-- ---------- graphics_by_piyushmaheshwari ---------- --> 
+    <!-- ----------          CONTACT US          ---------- --> 
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.581459664357!2d76.57930611476402!3d12.343933291269856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7bbacdb5f5b3%3A0x6dc8af58a5379cd1!2sHootagalli%20Apartment!5e0!3m2!1sen!2sin!4v1642740798354!5m2!1sen!2sin" 
+        width="600" height="450" style="border:2;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>
+                        <h5>Address</h5>
+                        <p>483, KRS Rd, Hootagalli, Ilavala Hobli, Karnataka 570018</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>Email</h5>
+                        <p>abc@gmail.com</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                    <span>
+                        <h5>Phone</h5>
+                        <p>+91 77xxxxxxxx</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name"  placeholder="Enter Your Name">
+                    <input type="email" name="email"  placeholder="Enter Your E-mail">
+                    <input type="text" name="subject"  placeholder="Enter Your Subject">
+                    <textarea rows="8" name="message"  placeholder="Your message here"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------- graphics_by_piyushmaheshwari ---------- --> 
+    <!-- ----------            FOOTER            ---------- --> 
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, ea molestias magni doloribus 
+            quae sed rerum,<br> quod eligendi esse reiciendis, nemo aspernatur dolor saepe nam commodi! 
+            Saepe quos officia beatae?
+        </p>
+        <footer>
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <span>Created By <a href="https://www.google.com/">Piyush Maheshwari</a> | <span
+                    class="far fa-copyright"></span> 2022 All rights reserved.</span>
+        </footer>
+    </section>
+
+
+<!-- ---------- graphics_by_piyushmaheshwari ---------- -->
+<!-- ---------- graphics_by_piyushmaheshwari ---------- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+
+</script>
+<!-- ---------- graphics_by_piyushmaheshwari ---------- -->
+<!-- ---------- graphics_by_piyushmaheshwari ---------- -->
+
+</body>
+<!-- ---------- graphics_by_piyushmaheshwari ---------- -->
+<!-- ---------- graphics_by_piyushmaheshwari ---------- -->
+</html>
